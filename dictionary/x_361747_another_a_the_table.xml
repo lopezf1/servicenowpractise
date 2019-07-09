@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="The Table" max_length="40" name="x_361747_another_a_the_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="RFP" max_length="40" name="u_boolean_10" type="boolean"/>
+        <element label="Redlines" max_length="40" name="u_boolean_13" type="boolean"/>
+        <element label="Best and final" max_length="40" name="u_boolean_15" type="boolean"/>
+        <element label="Contract negotiations" max_length="40" name="u_boolean_17" type="boolean"/>
+        <element label="SOA/SOD" max_length="40" name="u_boolean_18" type="boolean"/>
+        <element label="Mobility" max_length="40" name="u_boolean_20" type="boolean"/>
+        <element label="SOA/SOD" max_length="40" name="u_boolean_7" type="boolean"/>
+        <element label="SOA/SOD" max_length="40" name="u_boolean_8" type="boolean"/>
+        <element label="Contract" max_length="40" name="u_boolean_9" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="small (&lt;5)" label="Redline magnitude" max_length="40" name="u_choice_14" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Small (&lt;5)" sequence="0" value="small (&lt;5)"/>
+                <element inactive_on_update="false" label="Medium (&lt;10)" sequence="1" value="medium (&lt;10)"/>
+                <element inactive_on_update="false" label="Large(10 )" sequence="2" value="large(10 )"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Redline magnitude" max_length="40" name="u_choice_16" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Small (&lt;5)" sequence="0" value="small (&lt;5)"/>
+                <element inactive_on_update="false" label="Medium (&lt;10)" sequence="1" value="medium (&lt;10)"/>
+                <element inactive_on_update="false" label="Large (10 )" sequence="2" value="large (10 )"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Master agreeement" mandatory="true" max_length="40" name="u_choice_19" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Unified Agreement" sequence="0" value="unified agreement"/>
+                <element inactive_on_update="false" label="State of" sequence="1" value="state of"/>
+                <element inactive_on_update="false" label="Customer template" sequence="2" value="customer template"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contract vehicle" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Unified Agreement" sequence="0" value="unified agreement"/>
+                <element inactive_on_update="false" label="State Contract" sequence="1" value="state contract"/>
+                <element inactive_on_update="false" label="Negotiated" sequence="2" value="negotiated"/>
+                <element inactive_on_update="false" label="Customer template" sequence="3" value="customer template"/>
+            </choice>
+        </element>
+        <element label="Due to sales date" max_length="40" name="u_due_date_3" type="due_date"/>
+        <element label="Negotiated date" mandatory="true" max_length="40" name="u_due_date_4" type="due_date"/>
+        <element default="1" label="Number of documents created" mandatory="true" max_length="40" name="u_integer_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="ROME SRID" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="40" name="u_string_12" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SCVP name" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer legal name" mandatory="true" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AE name" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_choice_3" label="Contract vehicle" language="en" table="x_361747_another_a_the_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_choice_3</element>
+            <help/>
+            <hint/>
+            <label>Contract vehicle</label>
+            <language>en</language>
+            <name>x_361747_another_a_the_table</name>
+            <plural>Contract vehicles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 23:08:25</sys_created_on>
+            <sys_id>ac3e7c114f6233000bb1b63ca310c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contract vehicle</sys_name>
+            <sys_package display_value="Another Application" source="x_361747_another_a">236dac114f2233000bb1b63ca310c7dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Another Application">236dac114f2233000bb1b63ca310c7dc</sys_scope>
+            <sys_update_name>sys_documentation_x_361747_another_a_the_table_u_choice_3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 23:08:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
